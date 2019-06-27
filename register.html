@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Working Template</title>
+		<link rel="stylesheet" type="text/css" href="projectStyleSheet.css">
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<style>@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Rubik+Mono+One&display=swap|Roboto+Condensed:700&display=swap');</style>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+	</head>
+
+	<script>
+	$(document).ready(function(){
+		$('.navigationPage').hide();
+
+		$('.headerIcon').click(function(){
+			$(".navigationPage").fadeToggle("slow");
+		});
+	});
+
+	</script>
+
+	<body style="background-color: #d7d7d7">
+
+		<input type="image" src="flagicon.png" class="headerIcon">
+
+		<div class="navigationPage">
+			<div class="navigationPageChild">
+				<ul class="navigation">
+					<li><a href="#">START - HOME</a></li>
+					<li><a href="#">INFORMATION - ABOUT</a></li>
+					<li><a href="#">KONTAKT - CONTACT</a></li>
+					<li><a href="#">ANDER - OTHER</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<img src="headerbackground.jpg" alt="Der Fenrsehturm" class="img-fluid headerImage" />
+
+		<div class="headerTitleContainer">
+			<h1 class="headerTitle">GERMAN TRANSLATION SITE</h1>
+		</div>
+
+		<div class="headerLogin">
+			<form action="/placeholder.php">
+				<ul>
+					<li><input type="text" placeholder="Username"></li>
+					<li><input type="text" placeholder="Email"></li>
+					<li><input type="password" placeholder="Password"></li>
+					<li><input type="password" placeholder="Confirm Password"></li>
+					<li><button class="registerButton" type="submit">Register</button>
+					</li>
+				</ul>
+			</form>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 para1">
+					<p class="para1">This website is intended to be a learning resource for those with an interest in both the German language and the tumultous story of the Weimar Republic within 1920s Berlin. This website aims to accurately portray the history, culture, and impact of the period in Berlin while providing accessible German texts. This website is current a simple project, which will hopefully become a genuinely high quality resource for those studying the German language.</p>
+				</div>
+				<div class="para2Div"></div>
+				<div class="col-sm-6 para2">
+					<p class="para2">The aims of this website are to highlight how the period shaped the city today and its significance. The topic will be explored through useful German texts and further reading in English, as well as translatable documents from throughout the period. This websites hopes also to provide readers with other intrigueing resources of various forms and useful places of information.</p>
+				</div>
+			</div>
+		</div>
+		<div class="para3">
+			<p class="para3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div class="startPageNavigator">
+			<div class="startPageNavigatorChild">
+				<ul class="navigator">
+					<li><a href="#">START - HOME</a></li>
+					<li><a href="#">INFORMATION - ABOUT</a></li>
+					<li><a href="#">KONTAKT - CONTACT</a></li>
+					<li><a href="#">ANDER - OTHER</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+
+</html>
