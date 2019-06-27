@@ -195,7 +195,7 @@ ul.navigator a:link, a:visited {
 }
 
 ul.navigator a:hover, a:active {
-	color: red;
+	color: #ed6f33;
 	text-decoration: none;
 }
 
